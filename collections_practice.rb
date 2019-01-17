@@ -30,11 +30,11 @@ def kesha_maker(array)
 end 
 
 def find_a(array)
-  finds = array.start_with? { |a| a.match("a") }
+  finds = array.select { |word| word.start_with?("a") }
   finds
 end
 
-# { |word| word.start_with?('a') }
+# dictionary.select { |word| word.start_with?('a') }
 # input = "a"
 # match = dictionary.select { |a| a.match(input) }
 # puts match
