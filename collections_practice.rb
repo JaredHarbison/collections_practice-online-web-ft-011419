@@ -34,6 +34,7 @@ def find_a(array)
   finds
 end
 
+# { |word| word.start_with?('a') }
 # input = "a"
 # match = dictionary.select { |a| a.match(input) }
 # puts match
