@@ -30,5 +30,9 @@ def kesha_maker(array)
 end 
 
 def find_a(array)
-  array.find("a")
+  array.select { |a| a.match("a") }
 end
+
+# input = "a"
+# match = dictionary.select { |a| a.match(input) }
+# puts match
