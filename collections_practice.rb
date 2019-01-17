@@ -33,7 +33,3 @@ def find_a(array)
   array.select { |word| word.start_with?("a") }
 end
 
-# dictionary.select { |word| word.start_with?('a') }
-# input = "a"
-# match = dictionary.select { |a| a.match(input) }
-# puts match
