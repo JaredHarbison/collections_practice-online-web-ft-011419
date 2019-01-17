@@ -30,8 +30,8 @@ def kesha_maker(array)
 end 
 
 def find_a(array)
-  finds = array.select { |word| word.start_with?("a") }
-  finds
+  array.select { |word| word.start_with?("a") }
+
 end
 
 # dictionary.select { |word| word.start_with?('a') }
